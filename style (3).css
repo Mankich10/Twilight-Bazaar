@@ -41,4 +41,18 @@ div {
 }
 .search {
     background-color: #ac8b5e;
+    flex-direction: row;
+}
+.row-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #84724d;
 }
