@@ -56,3 +56,9 @@ footer {
     flex-direction: column;
     background-color: #84724d;
 }
+.tovarG {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
