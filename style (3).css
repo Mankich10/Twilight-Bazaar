@@ -33,12 +33,6 @@ h1 {
     color:#f4f1e3;
     margin-bottom: 50px;
 }
-div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
 .search {
     background-color: #ac8b5e;
     flex-direction: row;
@@ -56,9 +50,61 @@ footer {
     flex-direction: column;
     background-color: #84724d;
 }
-.tovarG {
+img {
+    border-radius: 10px;
+}
+.adve {
+    background-color: #c1b48c;
+}
+.brig {
+    background-color: #fffbe5;
+}
+.dark {
+    background-color: #493b50;
+}
+.catalog {
+    position: fixed;    
+    top: 20px;
+    right: 0px;
+}
+.cat {
+    width: 120px;
+    height: 50px;
+    background-color: rgb(167, 167, 219);
+    border-radius: 10px;
+    font-size: large;
+}
+.glav {
+    background-color: #d8c9a6;
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
+    gap: 40px;
+    padding: 20px;
+    align-items: center;
+}
+
+.trader {
+    display: block;
+    align-items: center;
+}
+
+.tovary {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap; /* если товаров много — переходят на следующую строку */
+    margin-top: 10px;
+}
+
+.tovar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border: solid 2px black;
+    border-radius: 10px;
+    width: 400px;
+    height: 580px;
+    padding: 10px;
 }
